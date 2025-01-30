@@ -1,5 +1,4 @@
-let numeroSecreto = generarNumerosecreto();
-console.log(numeroSecreto)
+let numeroSecreto = 0;
 let intentos = 0;
 let listaNumeroSorteado = [];
 let numeroMaximo = 10;
