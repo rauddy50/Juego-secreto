@@ -34,7 +34,7 @@ function limpiarCaja() {
 }
 function condicionesIniciales() {
     asignarTextoElemento( 'h1','Juego del numero Secreto')
-    asignarTextoElemento('p',`indica un numero del 1 al 10 ${numeroMaximo}`)
+    asignarTextoElemento('p',`indica un numero del 1 al ${numeroMaximo}`)
     numeroSecreto = generarNumerosecreto();
     intentos = 1;
 }
